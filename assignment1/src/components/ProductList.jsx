@@ -9,7 +9,7 @@ function ProductList() {
 
     return (
         <div>
-            {products.öap((product) => (
+            {products.map((product) => (
                 <Product
                 key = {product.id}
                 title = {product.title}
